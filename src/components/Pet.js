@@ -7,9 +7,9 @@ class Pet extends React.Component {
     //console.log(this.props)
     let disabled
     if(this.props.pet.isAdopted == undefined || this.props.pet.isAdopted == false){
-      disabled = false
+      disabled = false // Is going to activate when isAdopted is false or it doesn't exist
     } else{
-      disabled = true
+      disabled = true //Is going to active, when isAdopted == true
     }
 
     return (

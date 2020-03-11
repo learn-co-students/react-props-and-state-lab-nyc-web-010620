@@ -46,7 +46,6 @@ Top-Down - (One we are doing) -
 
 Bottom-Up - We want to start from the littlist parts possible, then build up to the hard parts.
 
-
 Dropdown Menu Types
   - All
   - Dog

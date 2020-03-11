@@ -17,15 +17,14 @@ class App extends React.Component {
   }
 
 
-  handleTypeChange = (e) => {
-    //console.log(this.state)
-    this.setState({
-      filters: {
-        ...this.state.filters,
-        type: e.target.value
-      }
-    })
-  }
+    handleTypeChange = (e) => {
+      this.setState({
+        filters: {
+          ...this.state.filters,
+          type: e.target.value
+        }
+      })
+    }
 
   handleFindPetsClick = () => {
     let filterType = this.state.filters.type
