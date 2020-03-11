@@ -1,0 +1,54 @@
+App
+1. Given
+2. Implement the filter that changes state
+3. Imeplement the filter, that also fetches stuff
+
+/api/pets # -> Gets everything
+/api/pets/microPig # -> Only gets microPig //
+
+    1. Change pet state to reflect the filter
+        1. Implement adoption
+
+Filters
+ 1. (Start with this first)
+  - onChange - For input menus
+  - onChangeType - For dropdown menus
+
+ 2. Implements filter when they hit find pets
+
+Pet Browser
+1. Renders the pets the user wants to see, into the pet browser container
+
+2. Adapts onAdoptPet and sends it to pet components.
+
+Pet
+1. Renders pet information/ for one pet.
+
+2. Display button to adopt depending on it's state
+
+3. Implements onAdoptPet, on the individual pet level
+
+
+// App, Filter, Pet, PetBrowser (4 components)
+
+    App           -Here 
+   /   \            
+Filter PetBrowser -PetBrowser
+         \           
+          Pet     -All the way down here
+
+
+PetBrowser - onAdoptPet
+
+Top-Down - (One we are doing) - 
+    * Pick a feature -> implement it -> test it -> Move on to next
+    * Start with basic features -> Build our way up to more advanced features
+
+Bottom-Up - We want to start from the littlist parts possible, then build up to the hard parts.
+
+
+Dropdown Menu Types
+  - All
+  - Dog
+  - Cat
+  - Micropig
