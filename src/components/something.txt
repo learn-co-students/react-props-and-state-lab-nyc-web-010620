@@ -10,9 +10,8 @@ App
         1. Implement adoption
 
 Filters
- 1. (Start with this first)
+ 1. 
   - onChange - For input menus
-  - onChangeType - For dropdown menus
 
  2. Implements filter when they hit find pets
 
